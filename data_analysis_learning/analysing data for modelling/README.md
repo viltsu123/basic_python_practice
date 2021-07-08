@@ -31,3 +31,11 @@ Yearly amount spent vs Length of Membership:
 ![Wheres the photo](https://github.com/viltsu123/basic_python_practice/blob/master/data_analysis_learning/analysing%20data%20for%20modelling/linearplot.png)
 
 Well it looks like the more experienced members tend to spend more on a yearly level, of course the bulk of the stores revenue seems to be coming from the customers who have been a member for a couple of months/years/weeks (not sure what the kind is for the Length of Membership :smile:).
+
+After some nifty machine guessing we are able to produce an output that looks like this:
+![What, no photo](https://github.com/viltsu123/basic_python_practice/blob/master/data_analysis_learning/analysing%20data%20for%20modelling/Screenshot%202021-07-08%20at%2014.46.39.png)
+The lines we would be interested in are the coefficient lines. values that went into the making of the coefficient dataframe are the training materials gotten from the origianl dataframe that carries info about the store. Yearly amount spent is put in the dataframe that will be handled as the "real values" and then info about the customers behaviour is put in the dataframe we used to calculate predictions.
+
+The coefficient dataframe reads so that a one unit increase in the Length of Membership would equate to a 61,28$ return. And this is true for the other values as well. We were looking for ways to make the store revenues go up, and looking at the numbers here, an investment into the mobile app development and the membership promotion (to get more members) would be a step in the right direction. Of course we could look at this from the perspective of making the Web app better so as to catch up with the mobile app revenues. More comparing can be done on that front before a decision is reached :smile:
+
+So this was a first example of using some dataframe magic and great machine learning library together to produce viable results in improving ones revenue stream :feelsgood: stay tuned for more! :cowboy_hat_face:
